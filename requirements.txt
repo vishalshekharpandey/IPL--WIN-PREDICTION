@@ -1,6 +1,5 @@
-wheel
-cython
 numpy
-requests==2.31.0
+pandas
 scikit-learn==1.2.2
 streamlit==1.27.2
+
