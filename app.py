@@ -4,7 +4,7 @@ import pandas as pd
 import pickle
 
 # Load trained pipeline
-pipe = pickle.load(open('', 'rb'))
+pipe = pickle.load(open('pipe.pkl', 'rb'))
 
 # Set page layout
 st.set_page_config(page_title="IPL Win Predictor", layout="centered")
